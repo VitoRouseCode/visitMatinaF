@@ -1,4 +1,4 @@
-const {
+/* const {
   Shop,
   sequelize,
   Reviews,
@@ -38,7 +38,7 @@ const seeder = async () => {
    
 
 
-
+/* 
 const tables = [
   { fileName: './src/archivosJson/users.json', model: Users, flag: 'users' },
   { fileName: './src/archivosJson/shopsD.json', model: Shop, flag: 'shops' },
@@ -105,5 +105,4 @@ for (let table of tables) {
 
   
   
-  module.exports ={ seeder, seederReviews,seederProducts};
-
+  module.exports ={ seeder, seederReviews,seederProducts}; */

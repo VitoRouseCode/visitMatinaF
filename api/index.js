@@ -9,11 +9,11 @@ conn.sync({ force: false }).then(async () => {
   console.log('Db connected...');
   async function startServer() {
     try {
-      await seeder(); // Llama a la función de seeder
+     /*  await seeder(); */ // Llama a la función de seeder
       /* await dos(); */
       console.log('funcion seeder ejecutada..');
-      await seederReviews();
-      await seederProducts();
+      /* await seederReviews();
+      await seederProducts(); */
     } catch (error) {
       console.error('Error al cargar los datos:', error);
     }
